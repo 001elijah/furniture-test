@@ -13,32 +13,32 @@
 <body>
     <header>
         <!--Хедер-->
-        <section>
-            <h1>Ми в соціальних мережах:</h1>
+        <section class="header-social">
+            <h1 class="title">Ми в соціальних мережах:</h1>
             <ul>
-                <li><a href="" aria-label="Telegram"></a></li>
-                <li><a href="" aria-label="Facebook"></a></li>
-                <li><a href="" aria-label="Instagram"></a></li>
+                <li><a href="" aria-label="Telegram">Telegram</a></li>
+                <li><a href="" aria-label="Facebook">Facebook</a></li>
+                <li><a href="" aria-label="Instagram">Instagram</a></li>
             </ul>
         </section>
         
-        <a href="tel:0991112233">(099) 111 22 33</a>
+        <a href="tel:0991112233"><span class="link">(099) 111 22 33</span></a>
         <nav>
             <!-- Навігація на інші сторінки -->
             <ul>
-                <li><a href="">Головна</a></li>
-                <li><a href="">Акції</a></li>
-                <li><a href="">Доставка та оплата</a></li>
-                <li><a href="">Про нас</a></li>
-                <li><a href="">Контакти</a></li>
+                <li><a href="" class="link">Головна</a></li>
+                <li><a href="" class="link">Акції</a></li>
+                <li><a href="" class="link">Доставка та оплата</a></li>
+                <li><a href="" class="link">Про нас</a></li>
+                <li><a href="" class="link">Контакти</a></li>
             </ul>
         </nav>
         <section>
             <!-- секцію з товарами назву "Товари", яку приховаю в CSS, для семантики -->
-            <h1>Товари</h1>
+            <h1 class="hide">Товари</h1>
             <ul>
                 <li>
-                    <h2>Дивани</h2>
+                    <a href="" class="link">Дивани</a>
                     <ul>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
@@ -46,7 +46,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h2>Ліжка</h2>
+                    <a href="" class="link">Ліжка</a>
                     <ul>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
@@ -54,7 +54,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h2>Крісла</h2>
+                    <a href="" class="link">Крісла</a>
                     <ul>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
@@ -62,7 +62,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h2>Комоди</h2>
+                    <a href="" class="link">Комоди</a>
                     <ul>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
@@ -70,7 +70,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h2>Шафи</h2>
+                    <a href="" class="link">Шафи</a>
                     <ul>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
@@ -78,7 +78,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h2>Кухня</h2>
+                    <a href="" class="link">Кухня</a>
                     <ul>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
@@ -88,13 +88,13 @@
             </ul>
 
         </section>
-        <a href="./index.html"><img src="./images/logo.svg" alt="логотип сайту">Furniture.test</a>
+        <a href="./index.html"><img src="./images/logo.svg" alt="логотип сайту"><span class="logo-1">F</span><span class="logo-2">urniture.test</span></a>
         <section>
             <!-- Секція кошик або дзвінок. Назва для семантики. Буде прихована в CSS. -->
-            <h1>Управління замовленням</h1>
+            <h1 class="hide">Управління замовленням</h1>
             <ul>
-                <li><a href="">Кошик</a></li>
-                <li><a href="">Замовити дзвінок</a></li>
+                <li><a href="" class="link">Кошик</a></li>
+                <li><a href="" class="link accent-button">Замовити дзвінок</a></li>
             </ul>
         </section>
     </header>
@@ -102,75 +102,81 @@
         <!-- Унікальний контент сторінки -->
         <section>
             <!-- Секція слайдер з чотирма пропозиціями -->
-            <h2>Пропозиції</h2>
+            <h1 class="hide">Пропозиції</h1>
             <ol>
                 <li>
-                    <article>
-                        <h2>Новинка</h2>
-                        <h3>Ліжко Ornella</h3>
-                        <p>Це новий рівень комфортного сну</p>
-                        <a href="">Детальніше</a>
+                    <article class="article">
+                        <h2 class="article-title">Новинка!</h2>
+                        <h3 class="second-title">Ліжко Ornella</h3>
+                        <p class="article-text">Це новий рівень комфортного сну</p>
+                        <a href="" class="link accent-button">Детальніше</a>
                     </article>
                 </li>
                 <li>
-                    <article>
-                        <h2>Новинка</h2>
-                        <h3>Ліжко Ornella</h3>
-                        <p>Це новий рівень комфортного сну</p>
-                        <a href="">Детальніше</a>
+                    <article class="article">
+                        <h2 class="article-title">Новинка</h2>
+                        <h3 class="second-title">Ліжко Ornella</h3>
+                        <p class="article-text">Це новий рівень комфортного сну</p>
+                        <a href="" class="link accent-button">Детальніше</a>
                     </article>
                 </li>
                 <li>
-                    <article>
-                        <h2>Новинка</h2>
-                        <h3>Ліжко Ornella</h3>
-                        <p>Це новий рівень комфортного сну</p>
-                        <a href="">Детальніше</a>
+                    <article class="article">
+                        <h2 class="article-title">Новинка</h2>
+                        <h3 class="second-title">Ліжко Ornella</h3>
+                        <p class="article-text">Це новий рівень комфортного сну</p>
+                        <a href="" class="link accent-button">Детальніше</a>
                     </article>
                 </li>
                 <li>
-                    <article>
-                        <h2>Новинка</h2>
-                        <h3>Ліжко Ornella</h3>
-                        <p>Це новий рівень комфортного сну</p>
-                        <a href="">Детальніше</a>
+                    <article class="article">
+                        <h2 class="article-title">Новинка</h2>
+                        <h3 class="second-title">Ліжко Ornella</h3>
+                        <p class="article-text">Це новий рівень комфортного сну</p>
+                        <a href="" class="link accent-button">Детальніше</a>
                     </article>
                 </li>
             </ol>
         </section>
-        <section>
+        <section class="section-pros">
             <!-- Секція з перевагами компанії -->
-            <h2>Наші переваги</h2>
+            <h1 class="title">Наші переваги</h1>
             <ul>
                 <li>
-                    <a href="">
-                        <img src="./images/image1.jpg" alt="Зображення меблів" width="586">
-                        Меблі преміум класу
-                    </a>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut iusto, quibusdam accusamus laudantium</p>
+                    <article class="pros-article">
+                        <a href="">
+                            <img src="./images/image1.jpg" alt="Зображення меблів" width="586">
+                            <h2 class="article-title">Меблі преміум класу</h2>
+                        </a>
+                        <p class="article-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut iusto, quibusdam accusamus laudantium</p>
+                    </article>
                 </li>
                 <li>
-                    <a href="">
-                        <img src="./images/image2.jpg" alt="Зображення команди" width="586">
-                        Надійність
-                    </a>
-                    <p>За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку вінницької області та Украхїни</p>
+                    <article class="pros-article">
+                        <a href="">
+                            <img src="./images/image2.jpg" alt="Зображення команди" width="586">
+                            <h2 class="article-title">Надійність</h2>
+                        </a>
+                        <p class="article-text">За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку вінницької області та Украхїни</p>
+                    </article>
                 </li>
                 <li>
-                    <a href="">
-                        <img src="./images/image3.jpg" alt="Зображення вантажівки" width="586">
-                        Безкоштовна доставка
-                    </a>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut iusto, quibusdam accusamus laudantium</p>
+                    <article class="pros-article">
+                        <a href="">
+                            <img src="./images/image3.jpg" alt="Зображення вантажівки" width="586">
+                            <h2 class="article-title">Безкоштовна доставка</h2>
+                        </a>
+                        <p class="article-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut iusto, quibusdam accusamus laudantium</p>
+                    </article>
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="section-categories">
             <!--Список категорій товарів-->
-            <h2>Категорії товарів</h2>
+            <h1 class="title">Категорії товарів</h1>
             <ul>
                 <li>
-                    <a href=""><img src="./images/sofa-logo.svg" alt="іконка дивану">Дивани</a>
+                    <a href="" class="categories-link"><img src="./images/sofa-logo.svg" alt="іконка дивану">Дивани</a>
                     <ul>
                         <li></li>
                         <li></li>
@@ -181,48 +187,48 @@
                     </ul>
                 </li>
                 <li>
-                    <a href=""><img src="./images/bed-logo.svg" alt="іконка ліжка">Ліжка</a>
+                    <a href="" class="categories-link"><img src="./images/bed-logo.svg" alt="іконка ліжка">Ліжка</a>
                     <ul>
                         <li>
-                            <a href="">
+                            <a href="" class="category-link">
                                 <img src="./images/ramona-bed.jpg" alt="ліжко рамона" width="586">
-                                Новинка ліжко Рамона 8 999 грн
+                                <span class="emphasize">Новинка</span> ліжко Рамона 8 999 грн
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="" class="category-link">
                                 <img src="./images/chester-bed.jpg" alt="ліжко честер" width="586">
-                                Продаж акція ліжко Честер 8 999 грн 8 999 грн
+                                <span class="emphasize">Хіт продаж</span> <span class="emphasize red">акція</span> ліжко Честер 8 999 грн <span class="pricetag-line-through">8 999 грн</span>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="" class="category-link">
                                 <img src="./images/venice-lux-bed.jpg" alt="ліжко венеція люкс" width="586">
                                 Ліжко Венеція люкс 8 999 грн
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="" class="category-link">
                                 <img src="./images/imperia-bed.jpg" alt="ліжко імперія" width="586">
-                                Новинка ліжко Імперія 8 999 грн
+                                <span class="emphasize">Новинка</span> ліжко Імперія 8 999 грн
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="" class="category-link">
                                 <img src="./images/adele-bed.jpg" alt="ліжко адель" width="586">
                                 Ліжко Адель 8 999 грн
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="" class="category-link">
                                 <img src="./images/atlant-bed.jpg" alt="ліжко атлант" width="586">
-                                Хіт продаж акція ліжко Атлант 8 999 грн 8 999 грн
+                                <span class="emphasize">Хіт продаж</span> <span class="emphasize red">акція</span> ліжко Атлант 8 999 грн <span class="pricetag-line-through">8 999 грн</span>
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href=""><img src="./images/armchair-logo.svg" alt="іконка крісла">Крісла</a>
+                    <a href="" class="categories-link"><img src="./images/armchair-logo.svg" alt="іконка крісла">Крісла</a>
                     <ul>
                         <li></li>
                         <li></li>
@@ -233,7 +239,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href=""><img src="./images/wardrobe-logo.svg" alt="іконка комоду">Комоди</a>
+                    <a href="" class="categories-link"><img src="./images/wardrobe-logo.svg" alt="іконка комоду">Комоди</a>
                     <ul>
                         <li></li>
                         <li></li>
@@ -244,7 +250,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href=""><img src="./images/wardrobe1-logo.svg" alt="іконка шафи">Шафи</a>
+                    <a href="" class="categories-link"><img src="./images/wardrobe1-logo.svg" alt="іконка шафи">Шафи</a>
                     <ul>
                         <li></li>
                         <li></li>
@@ -255,7 +261,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href=""><img src="./images/kitchen-logo.svg" alt="іконка кухні">Кухня</a>
+                    <a href="" class="categories-link"><img src="./images/kitchen-logo.svg" alt="іконка кухні">Кухня</a>
                     <ul>
                         <li></li>
                         <li></li>
@@ -266,24 +272,25 @@
                     </ul>
                 </li>
             </ul>
-            <a href="">В каталог</a>
+            <a href="" class="link accent-button">В каталог</a>
         </section>
-        <article>
+        <article class="article-about">
             <!-- Про нас -->
-            <h2>Про нас</h2>
-            <p>"FURNITURE" — "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <h1 class="title">Про нас</h1>
+            <p class="text"><span class="text about-text-accent">"FURNITURE"</span> — "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Illum ipsum, placeat obcaecati repellat, eveniet ab velit nisi minus fuga maiores harum error.
                 Incidunt tempora quas aperiam sapiente recusandae iste minus."</p>
-            <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <p class="text">"Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Eligendi voluptatum eius, necessitatibus accusantium quibusdam, facilis nulla illum iusto
                 laboriosam dolorum dicta temporibus deserunt distinctio sequi illo ipsam cumque cupiditate vel."</p>
-            <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex alias est at saepe quibusdam vitae
+            <p class="text">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex alias est at saepe quibusdam vitae
                 expedita earum labore beatae. Sed accusamus nostrum eius omnis numquam distinctio inventore non
                 perferendis repellat."</p>
         </article>
-        <section>
+        <section class="section-questions">
             <!-- Контактна форма -->
-            <h2>Залишились питання?</h2>
+            <h1 class="title">Залишились питання?</h1>
+            <h2 class="secondary-title">Замовте консультацію</h2>
             <form action="signup_form" autocomplete="on" novalidate>
                 <label for="user_name">
                     Ім'я
@@ -293,55 +300,59 @@
                     Номер телефону
                     <input type="tel" name="tel" />
                 </label>
-                <button type="submit">Відправити</button>
+                <button type="submit" class="form-button">Відправити</button>
             </form>
-            <p>
+            <p class="text">
                 Залиште заявку або зателефонуйте за номером
-                <a href="tel:0991112233">(099) 111 22 33</a>
+                <a href="tel:0991112233" class="link">(099) 111 22 33</a>
                 , і наш менеджер зв'яжеться з вами для кваліфікованої консультації.
             </p>
         </section>
     </main>
     <footer>
         <!--Футер-->
-        <a href="./index.html"><img src="./images/logo.svg" alt="логотип сайту">Furniture.test</a>
-        <section>
+        <a href="./index.html"><img src="./images/logo-light.svg" alt="логотип сайту"><span class="logo-1">F</span><span class="logo-3">urniture.test</span></a>
+        <section class="section-catalog">
             <!-- Перелік категорій товарів -->
-            <h2>Перелік категорій товарів</h2>
-             <ul>
-                <li><a href="">Дивани</a></li>
-                <li><a href="">Ліжка</a></li>
-                <li><a href="">Крісла</a></li>
-                <li><a href="">Шафи</a></li>
-                <li><a href="">Кухні</a></li>
-                <li><a href="">Комоди</a></li>
-             </ul>
+            <h2 class="hide">Перелік категорій товарів</h2>
+            <ul class="catalog-list">
+                <li><a href="" class="link"><span class="dash">—</span> Дивани</a></li>
+                <li><a href="" class="link"><span class="dash">—</span> Ліжка</a></li>
+                <li><a href="" class="link"><span class="dash">—</span> Крісла</a></li>
+                <li><a href="" class="link"><span class="dash">—</span> Шафи</a></li>
+                <li><a href="" class="link"><span class="dash">—</span> Кухні</a></li>
+                <li><a href="" class="link"><span class="dash">—</span> Комоди</a></li>
+            </ul>
         </section>
-        <section>
+        <section class="section-navigation">
             <!-- Навігація на інші сторінки -->
             <h2>Навігація на інші сторінки</h2>
             <ul>
-                <li><a href="">Акції</a></li>
-                <li><a href="">Доставка та оплата</a></li>
-                <li><a href="">Про нас</a></li>
-                <li><a href="">Контакти</a></li>
+                <li><a href="" class="link"><span class="dash">—</span> Акції</a></li>
+                <li><a href="" class="link"><span class="dash">—</span> Доставка та оплата</a></li>
+                <li><a href="" class="link"><span class="dash">—</span> Про нас</a></li>
+                <li><a href="" class="link"><span class="dash">—</span> Контакти</a></li>
             </ul>
         </section>
-        <address>
-            <p>Test</p>
-            <p>Пн-Пт, з 10 до 18</p>
-            <a href="tel:0991112233">(099) 111 22 33</a>
-            <a href="tel:0992223344">(099) 222 33 44</a>
-        </address>
-        <section>
-            <h1>Ми в соціальних мережах:</h1>
+        <address class="footer-address">
             <ul>
-                <li><a href="" aria-label="Telegram"></a></li>
-                <li><a href="" aria-label="Facebook"></a></li>
-                <li><a href="" aria-label="Instagram"></a></li>
+                <li><p class="text-caps">Test</p></li>
+                <li><p class="text">Пн-Пт, з 10 до 18</p></li>
             </ul>
-        </section>
-        <p>&copy; ТОВ Furniture, працюємо з 2006 року</p>
+            <ul>
+                <li><a href="tel:0991112233" class="contact-nav">(099) 111 22 33</a></li>
+                <li><a href="tel:0992223344" class="contact-nav">(099) 222 33 44</a></li>
+            </ul>
+        </address>
+        <section class="footer-social">
+            <h1 class="title">Ми в соціальних мережах:</h1>
+            <ul>
+                <li><a href="" aria-label="Telegram"></a>Telegram</li>
+                <li><a href="" aria-label="Facebook"></a>Facebook</li>
+                <li><a href="" aria-label="Instagram"></a>Instagram</li>
+            </ul>
+        </section >
+        <p class="copy-text">&copy; ТОВ Furniture, працюємо з 2006 року</p>
     </footer>
 </body>
 </html>

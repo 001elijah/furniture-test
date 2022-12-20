@@ -1,3 +1,347 @@
+/* page colors */
+
+/* background color: #FFFFFF */
+/* accent color: #44C697 */
+/* main text color: #1E2E36 */
+/* site red color: #FF1B1B */
+/* subtle text color: #BCBDBB */
+
+
+:root {
+    --background-white-color: #FFFFFF;
+    --color-3: #44C697;
+    --color-4: #1E2E36;
+    --special-offer: #FF1B1B;
+    --color-2: #BCBDBB;
+}
+
 body {
     font-family: 'Figtree', sans-serif;
+    color: var(--color-4);
+    background-color: var(--background-white-color);
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* hide logical heading */
+
+.hide {
+    display: none;
+}
+
+/* logo design */
+
+.logo-1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+
+    color: var(--color-3);
+}
+
+.logo-2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+
+    color: var(--color-4);
+}
+
+/* header section */
+.header-social .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+
+    color: var(--color-4);
+}
+
+.link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+    
+    text-transform: uppercase;
+
+    color: var(--color-4);
+}
+
+.link.accent-button {
+    color: var(--background-white-color);
+    background-color: var(--color-3);
+}
+
+/* hero */
+.article .article-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    /* color4 */
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.article .second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+}
+
+.article .article-text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.25;
+}
+
+/* our pros section */
+.section-pros .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    
+    text-align: center;
+}
+
+.pros-article .article-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;   
+    
+    color: var(--background-white-color);
+    background-color: var(--color-2);
+}
+
+.pros-article .article-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+    
+    color: var(--background-white-color);
+    background-color: var(--color-2);
+}
+
+/* section categories */
+
+.section-categories .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    
+    text-align: center;
+}
+
+.categories-link {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+
+    text-transform: uppercase;
+    color: var(--color-4);
+}
+.categories-link:hover,
+.categories-link:focus
+{
+    color: var(--color-3);
+}
+
+.category-link {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+
+    text-transform: uppercase;
+    color: var(--color-4);
+}
+.category-link:hover,
+.category-link:focus
+{
+    background-color: var(--color-3);
+}
+
+.emphasize {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+
+    text-transform: uppercase;
+
+    color: var(--background-white-color);
+    background-color: var(--color-4);
+}
+
+.emphasize.red {
+    background-color: var(--special-offer);
+}
+
+.pricetag-line-through {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+
+    text-align: center;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+
+    color: var(--color-2);
+}
+
+/* section about us */
+
+.article-about .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    
+    text-align: center;
+}
+
+.article-about .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+
+    color: var(--color-4);
+}
+
+.text.about-text-accent {
+    text-transform: uppercase;
+    color: var(--color-3);
+}
+
+/* section questions */
+
+.section-questions .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    
+    text-align: center;
+}
+
+.section-questions .secondary-title {
+    font-size: 36px;
+    line-height: 1.25;
+
+    color: var(--color-4);
+}
+
+.section-questions .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+
+    color: var(--color-4);
+}
+
+.form-button {
+    width: 432px;
+    height: 51px;
+    left: 1437px;
+    top: 4272px;
+
+    background: var(--color-3);
+    border-radius: 3px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+
+    text-transform: uppercase;
+
+    color: var(--background-white-color);
+}
+
+.form-button:hover {
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--color-4);
+}
+
+.logo-3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+
+    color: var(--background-white-color);
+}
+
+.section-catalog .link,
+.section-navigation .link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+
+    text-transform: uppercase;
+
+    color: var(--background-white-color);
+}
+
+.section-catalog .dash,
+.section-navigation .dash {
+    color: var(--color-3);
+}
+
+address .text-caps {
+    
+    text-transform: uppercase;
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+
+    color: var(--background-white-color);
+}
+
+address .text {
+
+    text-decoration: none;
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+
+    color: var(--background-white-color);
+
+}
+
+.contact-nav {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+
+    font-style: normal;
+
+    color: var(--color-3);
+}
+
+.footer-social .title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+
+    color: var(--background-white-color);
+}
+
+.copy-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+
+    color: var(--background-white-color);
 }
